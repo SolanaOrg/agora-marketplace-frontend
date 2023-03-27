@@ -1,0 +1,33 @@
+.analytics-panel {
+  .title {
+    color: white;
+    margin-top: 40px;
+  }
+
+  .no-nftGroup {
+    position: relative;
+    left: 50%;
+    margin-top: 0px;
+    transform: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+    .title {
+      font-family: 'Poppins';
+      font-weight: 600;
+      font-size: 20px;
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+
+    .subTitle {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      color: #B4B4B4;
+    }
+  }
+}

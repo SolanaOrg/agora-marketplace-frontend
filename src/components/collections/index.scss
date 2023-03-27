@@ -1,0 +1,40 @@
+.activity-tab-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 0px 30px;
+  border-bottom: 1px solid #3D3D3D;
+  margin-bottom: 15px;
+
+  .activity-tab-active {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 16px;
+
+    .bg-active {
+      width: 100%;
+      // background: linear - gradient(137.76deg, #E873FF 7.73 %, #53FFFC 97.41 %);
+      background: linear-gradient(137.36deg, #E873FF 7.37%, #53FFFC 97.41%);
+      height: 4px;
+      position: absolute;
+      bottom: 0px;
+      border-radius: 2px;
+      left: 0px;
+    }
+  }
+
+  .activity-tab-passive {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B4B4B4;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 16px;
+  }
+}
